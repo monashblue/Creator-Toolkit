@@ -1,0 +1,9 @@
+# Dependensi runtime Creator Toolkit (Python 3.12, Windows 10/11 64-bit)
+# Rentang versi ini perlu diverifikasi dengan pip pada mesin Windows Anda.
+# Setelah terverifikasi, kunci versi dengan: pip freeze > requirements.lock.txt
+PySide6>=6.6,<7
+Pillow>=10.0
+qrcode>=7.4
+numpy>=1.26
+onnxruntime>=1.16
+# rembg sengaja tidak dipakai: inferensi memakai ONNX Runtime langsung (lihat docs/architecture.md).
